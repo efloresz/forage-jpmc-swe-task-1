@@ -145,7 +145,7 @@ def order_book(orders, book, stock_name):
 ################################################################################
 #
 # Test Data Persistence
-
+# Store the users order history and maintain the stock data
 def generate_csv():
     """ Generate a CSV of order history. """
     with open('test.csv', 'wb') as f:
